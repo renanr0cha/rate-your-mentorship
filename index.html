@@ -36,7 +36,7 @@
   
           </div>
           <div class="input-wrapper">
-            <label for="email">Email</label>
+            <label for="email">Email <span>(insira um email válido)</span> </label>
             <input type="text" id="email">
           </div>
   
@@ -49,16 +49,24 @@
           
             <div class="input-wrapper">
               <label for="first-name">Selecione quem foi o seu mentor</label>
-              <select name="mentor-name" id=""></select>
+              <select name="mentor-name" id="">
+                <option value="" selected disabled>Escolha seu mentor</option>
+                <option value="">Elon Musk</option>
+                <option value="">Bill Gates</option>
+                <option value="">Barack Obama</option>
+
+              </select>
             </div>
     
             <div class="input-wrapper">
               <label for="mentor-feedback">Feedback sobre o mentor</label>
-              <textarea rows="5" cols="33" id="mentor-feedback"></textarea>
-              <label for="questions-answered">Todas as minhas dúvidas foram esclarecidas durante a mentoria</label>
-              <input type="checkbox" name="questions-answered" id="questions-answered">
+              <textarea rows="8" cols="33" id="mentor-feedback"></textarea>
             </div>
-  
+            <div class="checkbox-wrapper">
+              <input type="checkbox" name="questions-answered" id="questions-answered">
+              <label for="questions-answered">Todas as minhas dúvidas foram esclarecidas durante a mentoria</label>
+
+            </div>
         </fieldset>
 
         <fieldset>
