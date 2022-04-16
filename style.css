@@ -13,9 +13,9 @@ body {
   font-size: 1.4rem;
   background: #BFD7E4;
 }
-body::before {
+.page::before {
   content: '';
-  height: 46.5rem;
+  height: 44.8rem;
   display: inline-block;
   position: absolute;
   z-index: -1;
@@ -23,15 +23,16 @@ body::before {
   left: 0;
   width: 100%;
   background: #293241;
+  margin: 0 auto;
 
 }
 
 header {
-  height: 46.5rem;
   color: white;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 3.2rem;
   padding-top: 10.7rem;
+
 }
 
 header h1 {
@@ -48,3 +49,33 @@ h1, h5 {
   font-family: 'Staatliches', cursive;
   font-weight: 400;
 }
+
+form {
+  width: 75.0rem;
+  background: white;
+  margin: 0 auto;
+  border-radius: 2.0rem 2.0rem 0 0;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  text-align: center;
+}
+
+#header-legend {
+  padding: 5.0rem 27.5rem;
+  width: 100%;
+  background: #F67669;
+  border-radius: 2.0rem 2.0rem 0 0;
+  color: white;
+  margin-bottom: 3.2rem;
+}
+
+
