@@ -26,18 +26,18 @@
           <div class="col-2">
             <div class="input-wrapper">
               <label for="first-name">Nome</label>
-              <input type="text" id="first-name">
+              <input required type="text" id="first-name">
             </div>
     
             <div class="input-wrapper">
               <label for="last-name">Sobrenome</label>
-              <input type="text" id="last-name">
+              <input required type="text" id="last-name">
             </div>
   
           </div>
           <div class="input-wrapper">
             <label for="email">Email <span>(insira um email válido)</span> </label>
-            <input type="text" id="email">
+            <input required type="text" id="email">
           </div>
   
         </fieldset>
@@ -48,7 +48,7 @@
           </legend>
           
             <div class="input-wrapper">
-              <label for="first-name">Selecione quem foi o seu mentor</label>
+              <label for="mentor-name">Selecione quem foi o seu mentor</label>
               <select name="mentor-name" id="">
                 <option value="" selected disabled>Escolha seu mentor</option>
                 <option value="">Elon Musk</option>
@@ -91,7 +91,7 @@
           </div>
         </fieldset>
 
-        <input class="button" type="button" value="Salvar">
+        <input class="button" type="submit" value="Salvar">
       </form>
     </main>
   
